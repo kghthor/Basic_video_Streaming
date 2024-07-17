@@ -11,3 +11,4 @@ class Video(models.Model):
     def get_absolute_url(self):
         from django.urls import reverse
         return reverse('video_detail', args=[str(self.id)])
+ 
