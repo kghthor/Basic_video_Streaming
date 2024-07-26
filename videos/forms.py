@@ -6,7 +6,7 @@ from .models import Video
 
 class VideoForm(forms.ModelForm):
     class Meta:
-        model = Video
+        model = Video 
         fields = ['title', 'video_file']
 
     def clean_video_file(self):
