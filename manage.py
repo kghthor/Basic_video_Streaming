@@ -7,7 +7,7 @@ import sys
 def main():
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'video_stream.settings')
-    try:
+    try: 
         from dj ooango.core.management import execute_from_command_line
     except ImportError as exc:
         raise ImportError(
